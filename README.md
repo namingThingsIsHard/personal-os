@@ -1,8 +1,25 @@
 # PersonalOS
 
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/amanaiproduct/personal-os)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 Your AI-powered task management system that keeps you focused on what matters.
 
 Brain dump into `BACKLOG.md`, tell your AI assistant to process it, and get organized tasks automatically prioritized based on your goals.
+
+| Section | Status |
+|---------|--------|
+| Task Management | ✅ |
+| Goal-driven Prioritization | ✅ |
+| Knowledge Base | ✅ |
+| Backlog Processing | ✅ |
+| MCP Server (optional) | ✅ |
+
+---
+
+*Quick links:* [Quick Start](#quick-start) · [How It Works](#how-it-works) · [Directory Structure](#directory-structure) · [Daily Workflow](#daily-workflow)
+
+---
 
 ## Quick Start
 
@@ -47,12 +64,14 @@ The setup will:
 
 ### Priorities
 
-- **P0** - Do today (max 3)
-- **P1** - This week (max 7)
-- **P2** - Scheduled
-- **P3** - Someday/maybe
+| Priority | Meaning | Limit |
+|----------|---------|-------|
+| **P0** | Do today | max 3 |
+| **P1** | This week | max 7 |
+| **P2** | Scheduled | - |
+| **P3** | Someday/maybe | - |
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 personal-os/
@@ -91,7 +110,7 @@ personal-os/
 - 2-minute setup, no Python required
 - MCP integration for Claude and other AI assistants
 
-## 🔧 For Contributors
+## For Contributors
 
 The `core/` directory contains the reusable system. Contributions should:
 - Not include personal information
@@ -99,7 +118,7 @@ The `core/` directory contains the reusable system. Contributions should:
 - Include documentation
 - Follow the existing patterns
 
-## 📄 License
+## License
 
 This work is licensed under CC BY-NC-SA 4.0.
 

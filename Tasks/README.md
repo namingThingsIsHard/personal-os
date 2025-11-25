@@ -1,23 +1,23 @@
 # Tasks
 
-Your personal task files live here. Each task is a markdown file with YAML frontmatter containing metadata like priority, status, and category.
+Your personal task files live here. Each task is a markdown file with YAML frontmatter.
 
-This directory is gitignored—your tasks stay private and local.
+> This directory is gitignored—your tasks stay private and local.
+
+---
+
+## Quick Reference
+
+| Field | Values |
+|-------|--------|
+| **priority** | `P0` (today) · `P1` (this week) · `P2` (scheduled) · `P3` (someday) |
+| **status** | `n` (not started) · `s` (started) · `b` (blocked) · `d` (done) |
+| **category** | `technical` · `outreach` · `research` · `writing` · `admin` · `personal` · `other` |
+
+---
 
 ## Creating Tasks
 
-Tasks are created automatically when you say "process my backlog" to your AI assistant. You can also create them manually using the template in `examples/example_task.md`.
+Tasks are created automatically when you say "process my backlog" to your AI assistant.
 
-## Task Structure
-
-```yaml
----
-title: Task name
-category: technical|outreach|research|writing|admin|personal|other
-priority: P0|P1|P2|P3
-status: n  # n=not_started, s=started, b=blocked, d=done
-created_date: YYYY-MM-DD
----
-```
-
-See `examples/example_task.md` for a complete template.
+You can also create them manually—see [`examples/example_task.md`](../examples/example_task.md) for the full template.
