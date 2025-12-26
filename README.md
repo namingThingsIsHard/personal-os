@@ -1,4 +1,4 @@
-# PersonalOS
+<img width="1071" height="677" alt="Screenshot 2025-12-26 at 11 51 27 PM" src="https://github.com/user-attachments/assets/3ebeaed3-fd98-47b7-ad16-012a5d7a4037" /># PersonalOS
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![X](https://img.shields.io/badge/X-@__amankhan-blue?logo=x&logoColor=white)](https://x.com/_amankhan)
@@ -22,6 +22,8 @@ Brain dump into `BACKLOG.md`, tell your AI assistant to process it, and get orga
 *Quick links:* [Quick Start](#quick-start) · [How It Works](#how-it-works) · [Directory Structure](#directory-structure) · [Daily Workflow](#daily-workflow)
 
 ---
+
+![Uploading Screenshot 2025-12-26 at 11.51.27 PM.png…]()
 
 ## Quick Start
 
