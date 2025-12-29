@@ -23,7 +23,8 @@ Brain dump into `BACKLOG.md`, tell your AI assistant to process it, and get orga
 
 ---
 
-![Uploading Screenshot 2025-12-26 at 11.51.27 PM.png…]()
+<img width="1071" height="677" alt="Screenshot 2025-12-26 at 11 51 27 PM" src="https://github.com/user-attachments/assets/bbde8dc5-7e17-4ced-bc2b-ede505ee4a72" />
+
 
 ## Quick Start
 
