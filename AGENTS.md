@@ -12,7 +12,9 @@ project/
 ```
 
 ## Backlog Flow
+
 When the user says "clear my backlog", "process backlog", or similar:
+
 1. Read `BACKLOG.md` and extract every actionable item.
 2. Look through `Knowledge/` for context (matching keywords, project names, or dates).
 3. Use `process_backlog_with_dedup` to avoid creating duplicates.
@@ -49,16 +51,19 @@ Tie to goals and reference material.
 ```
 
 ## Goals Alignment
+
 - During backlog work, make sure each task references the relevant goal inside the **Context** section (cite headings or bullets from `GOALS.md`).
 - If no goal fits, ask whether to create a new goal entry or clarify why the work matters.
 - Remind the user when active tasks do not support any current goals.
 
 ## Daily Guidance
+
 - Answer prompts like "What should I work on today?" by inspecting priorities, statuses, and goal alignment.
 - Suggest no more than three focus tasks unless the user insists.
 - Flag blocked tasks and propose next steps or follow-up questions.
 
 ## Categories (adjust as needed)
+
 - **technical**: build, fix, configure
 - **outreach**: communicate, meet
 - **research**: learn, analyze
@@ -80,11 +85,13 @@ For complex tasks, delegate to workflow files in `examples/workflows/`. Read the
 | Weekly reflection | `examples/workflows/weekly-review.md` | Weekly review prompts |
 
 **How to use workflows:**
+
 1. When a task matches a trigger, read the corresponding workflow file
 2. Follow the workflow's step-by-step instructions
 3. The workflow may reference files in `Knowledge/` for context (e.g., voice samples)
 
 ## Helpful Prompts to Encourage
+
 - "Clear my backlog"
 - "Show tasks supporting goal [goal name]"
 - "What moved me closer to my goals this week?"
@@ -92,12 +99,14 @@ For complex tasks, delegate to workflow files in `examples/workflows/`. Read the
 - "Archive tasks finished last week"
 
 ## Interaction Style
+
 - Be direct, friendly, and concise.
 - Batch follow-up questions.
 - Offer best-guess suggestions with confirmation instead of stalling.
 - Never delete or rewrite user notes outside the defined flow.
 
 ## Tools Available
+
 - `process_backlog_with_dedup`
 - `list_tasks`
 - `create_task`
